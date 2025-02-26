@@ -1,5 +1,5 @@
-let myStr = prompt("Mời bạn nhập vào một đoạn string: ");
-let newStr = myStr.charAt(0).toUpperCase()+ myStr.slice(1).toLowerCase();
+let cDegree = prompt("Mời bạn nhập vào độ C: ");
+let fDegree = (+cDegree * 9 / 5) + 32;
 
-document.write(newStr);
-console.log(newStr);
+document.write(` Nhiệt độ F là: ${fDegree}`);
+console.log(` Nhiệt độ F là: ${fDegree}`);
